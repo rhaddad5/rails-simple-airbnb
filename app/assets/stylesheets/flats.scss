@@ -1,0 +1,34 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.container {
+  width: 1000px;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.flat-cards {
+  display: flex;
+}
+
+.flat-card {
+  width: 250px;
+  box-shadow: 2px 2px 4px 0px #9E9E9E;
+  margin-left: 20px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#guests {
+  padding-right: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
